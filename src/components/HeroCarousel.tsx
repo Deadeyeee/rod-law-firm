@@ -12,24 +12,31 @@ interface Slide {
 
 const slides: Slide[] = [
   {
-    image: "/lovable-uploads/845bd96f-ab2a-4752-be1a-cf5c1762f312.png",
+    image: "lovable-uploads/BeachPersonsBg.png",
     headline: "CLARITY AND CARE",
     subheadline: "WHEN YOUR FAMILY NEEDS IT MOST",
     ctaText: "YOUR PATH FORWARD",
     ctaLink: "/practice-areas/family-law",
   },
   {
-    image: "/lovable-uploads/4d738e46-4eda-4058-ac22-ae505cd63a23.png",
+    image: "lovable-uploads/HouseBG.png",
     headline: "GUIDING OWNERS",
     subheadline: "EVERY STEP OF THE WAY",
     ctaText: "REQUEST A QUOTE",
     ctaLink: "/practice-areas/real-estate",
   },
   {
-    image: "/lovable-uploads/524f254c-098d-49d2-bfba-777d51c13438.png",
+    image: "lovable-uploads/FamilyBg.png",
     headline: "PROTECT YOUR",
     subheadline: "LEGACY AND LOVED ONES",
     ctaText: "PLAN YOUR NEXT STEP",
+    ctaLink: "/practice-areas/estate-planning",
+  },
+  {
+    image: "lovable-uploads/ShakeHandsBG.png",
+    headline: "GUIDIGING OWNERS",
+    subheadline: "EVERY STEP OF THE WAY",
+    ctaText: "OPTIMIZE YOUR BUSINESS",
     ctaLink: "/practice-areas/estate-planning",
   },
 ];

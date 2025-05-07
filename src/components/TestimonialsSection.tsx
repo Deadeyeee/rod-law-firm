@@ -59,7 +59,7 @@ const TestimonialsSection: React.FC = () => {
     <section className="py-20 bg-law-darker relative">
       <div 
         className="absolute inset-0 bg-cover bg-center opacity-10"
-        style={{ backgroundImage: "url('/lovable-uploads/0f3bde5d-8e25-4688-9886-849636a1de96.png')" }}
+        style={{ backgroundImage: "url('/lovable-uploads/clientStoriesBg.jpg')" }}
       ></div>
       
       <div className="container mx-auto px-4 relative z-10">

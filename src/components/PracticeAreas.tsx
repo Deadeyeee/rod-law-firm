@@ -91,7 +91,7 @@ const PracticeAreas: React.FC = () => {
           {practiceAreas.map((area) => (
             <div
               key={area.id}
-              className={`bg-law-dark border border-law-gold/20 rounded-lg overflow-hidden transition-all duration-500 ${
+              className={`bg-law-dark shadow-lg shadow-law-gold/5 rounded-lg overflow-hidden transition-all duration-500 ${
                 expandedArea === area.id ? 'transform scale-105 shadow-xl' : ''
               }`}
             >
@@ -114,7 +114,7 @@ const PracticeAreas: React.FC = () => {
               </div>
 
               {expandedArea === area.id && (
-                <div className="p-6 pt-0 bg-law-black/30 animate-fade-in">
+                <div className="p-6 pt-0 bg-law-black/30 animate-fade-in none">
                   <h4 className="text-lg font-semibold mb-3 text-white">Our Services:</h4>
                   <ul className="list-disc pl-5 mb-6 space-y-1">
                     {area.services.map((service, idx) => (
@@ -134,7 +134,7 @@ const PracticeAreas: React.FC = () => {
           ))}
         </div>
 
-        <div className="text-center mt-12">
+        <div className="text-center mt-12 hidden">
           <a
             href="/practice-areas"
             className="cta-button"
