@@ -14,7 +14,7 @@ const Footer: React.FC = () => {
           <div>
             <Link to="/" className="inline-block mb-6">
               <img
-                src="/lovable-uploads/eafac1c3-8b15-4610-a1c9-c48a788ca6c9.png"
+                src="lovable-uploads/RodLawOffceLogo.png"
                 alt="Rodriguez Law Office"
                 className="h-16"
               />
