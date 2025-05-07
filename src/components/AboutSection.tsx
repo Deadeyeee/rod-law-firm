@@ -8,7 +8,7 @@ const AboutSection: React.FC = () => {
         <div className="flex flex-col lg:flex-row gap-12 items-center">
           <div className="lg:w-1/2">
             <img
-              src="/lovable-uploads/Headshot-removebg.png"
+              src="lovable-uploads/Headshot-removebg.png"
               alt="David Rodriguez, Attorney"
               className="rounded-lg border-law-gold/20 w-full max-w-md mx-auto"
             />
