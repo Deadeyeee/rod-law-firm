@@ -23,7 +23,7 @@ const Index = () => {
       <ContactSection />
       <MapSection />
       <Footer />
-      <FloatingCTA />
+      {/* <FloatingCTA /> */}
     </div>
   );
 };

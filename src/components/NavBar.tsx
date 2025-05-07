@@ -31,7 +31,7 @@ const NavBar = () => {
       <div className="container mx-auto px-4 flex items-center justify-between">
         <Link to="/" className="flex items-center">
           <img
-            src="/lovable-uploads/eafac1c3-8b15-4610-a1c9-c48a788ca6c9.png"
+            src="lovable-uploads/RodLawOffceLogo.png"
             alt="Rodriguez Law Office"
             className="h-12 md:h-16"
           />
