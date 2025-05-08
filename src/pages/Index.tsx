@@ -13,14 +13,14 @@ import FloatingCTA from '../components/FloatingCTA';
 
 const Index = () => {
   return (
-    <div className="min-h-screen bg-law-dark">
+    <div className="min-h-screen bg-law-dark overflow-x-hidden">
       <NavBar />
       <HeroCarousel />
       <PracticeAreas />
       <AboutSection />
       <TestimonialsSection />
       <FaqSection />
-      <ContactSection />
+      {/* <ContactSection /> */}
       <MapSection />
       <Footer />
       {/* <FloatingCTA /> */}

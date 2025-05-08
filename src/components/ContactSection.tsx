@@ -16,7 +16,8 @@ const ContactSection: React.FC = () => {
         <div className="flex flex-col lg:flex-row gap-12">
           <div className="lg:w-1/2">
             <div className="bg-law-dark p-6 rounded-lg shadow-lg border border-law-gold/20 h-full">
-              <h3 className="text-2xl font-bold mb-6 gold-underline pb-4">Get In Touch</h3>
+              <h3 className="text-4xl font-bold mb-2 ">Check Us Out</h3>
+              <h5 className="text-xl mb-6 pb-4">Our office is located at 55 Dover Street, Chatham, ON N7M 1S7</h5>
 
               <div className="space-y-6">
                 <div className="flex items-start">

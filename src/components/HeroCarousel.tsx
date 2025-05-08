@@ -82,7 +82,7 @@ const HeroCarousel: React.FC = () => {
           </div>
 
           {/* Content */}
-          <div className="relative h-full flex flex-col justify-center pl-8 md:pl-24 max-w-5xl">
+          <div className="relative h-full flex flex-col justify-center ms-auto pl-8 md:pl-24 max-w-5xl">
             <div className="vertical-gold-line pl-8">
               <h2 className="text-3xl md:text-5xl lg:text-6xl font-bold text-white mb-2">
                 {slide.headline}
